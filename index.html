@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .internal{
+            background-color: coral;
+            border: 2px dotted palegreen;
+            width: 150px;
+            height: 80px;
+        }
+    </style>
+</head>
+<body>
+    <!-- "Revise all the concepts : 
+
+Q 1 : Create unordered list and ordered list
+Q 2 : Create user form accepting name age contact address 
+Q 3 : Create radio button in selecting Male, Female and create checkbox for selecting options as React HTML CSS JS Node
+Q 4 : Explain different types of CSS
+Q 5 : Create an example to explain the difference between margin and padding
+Q 6 : By using flex , arranges 10 boxes. three boxes should be in a row and page should be scrollable
+Q 7 : Create the image or structure given in the image using grid." -->
+
+<h3>1.unordered list and ordered list</h3>
+*ordered list:
+<ol>
+    <li>apple</li>
+    <li>banana</li>
+    <li>orange</li>
+    <li>water melon</li>
+    <li>mango</li>
+</ol>
+*unordered list:
+<ul>
+    <li>milk</li>
+    <li>tea</li>
+    <li>coffee</li>
+    <li>juice</li>
+    <li>soda</li>
+</ul>
+
+<h3>2.form</h3>
+<h4>FILL THE FORM</h4>
+<form action="./index2.html">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="age">Age</label>
+    <input type="number" id="age" name="age" required><br><br>
+    <label for="address">Contact address</label>
+   <textarea name="address" id="address"></textarea><br>
+   <input type="submit">
+</form>
+
+<h3>3.radio and checkbox</h3>
+<label for="gender">Gender</label><br>
+<input type="radio" name="gender" id="gender" required>
+<label for="gender">Male</label><br>
+<input type="radio" name="gender" id="gender" required>
+<label for="gender">Female</label>
+<br><br>
+<label for=""> Course</label><br>
+          <input type="checkbox" name="course" id="course">
+          <label for="course">React</label><br>
+          <input type="checkbox" name="course" id="course">
+          <label for="course">HTML</label><br>
+          <input type="checkbox" name="course" id="course">
+          <label for="course">CSS</label><br>
+          <input type="checkbox" name="course" id="course">
+          <label for="course">JS</label><br>
+          <input type="checkbox" name="course" id="course">
+          <label for="course">Node</label><br>
+<br>
+<h3>4.types of CSS</h3>
+
+<h4>Inline CSS</h4>
+*Inline css we need to mention our styling within the opening tag only and we need to use style attributes.<br>
+*Inline is more powerful than the both internal CSS and external CSS.
+<h2 style="border:1px solid black; background-color: aqua;width: 100px; height: 50px;">INLINE CSS</h2>
+<h4>Internal CSS</h4>
+*Internal CSS we need to mention in head tag with the use of style tag.<br>
+*It's having more priority than the external.
+<h2 class="internal">INTERNAL CSS</h2>
+<h4>External CSS</h4>
+*External CSS is used in different file with extension of CSS.<br>
+*Whenever we need to use external style sheet we should link with the link tag.
+<h2 class="external">EXTERNAL CSS</h2>
+
+<h3>5.difference between margin and padding</h3>
+<h3>margin--hover it..</h3>
+<div class="margin-box">
+   The margin is betwwen the browser screen and the element broder.
+</div>
+<div class="margin-box2">
+    example
+</div>
+<h3>padding--hover it..</h3>
+<div class="padding-box">
+    padding is between the element border and the content element
+</div>
+
+<h3>6.flex</h3>
+<div class="flex-box">
+<div class="box1 box"></div>
+<div class="box2 box"></div>
+<div class="box3 box"></div>
+<div class="box4 box"></div>
+<div class="box5 box"></div>
+<div class="box6 box"></div>
+<div class="box7 box"></div>
+<div class="box8 box"></div>
+<div class="box9 box"></div>
+<div class="box10 box"></div>
+</div>
+
+<h3>7.grid</h3>
+<div class="grid">
+    <div class="gbox1">header</div>
+    <div class="gbox2">nav</div>
+    <div class="gbox3">main</div>
+    <div class="gbox4">aside</div>
+    <div class="gbox5">footer</div>
+</div>
+</body>
+</html>
