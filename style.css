@@ -1,3 +1,39 @@
+.ques1{
+    background-color: darkcyan;
+    padding: 10px;
+}
+.ques2{
+    background-color: chocolate;
+    padding: 10px;
+    margin: 10px;
+}
+.ques4{
+    background-color: silver;
+    padding: 10px;
+    margin: 10px;
+}
+.ques5{
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 10px;
+}
+.ques6{
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .external{
     background-color: crimson;
     border: 2px groove yellowgreen;
